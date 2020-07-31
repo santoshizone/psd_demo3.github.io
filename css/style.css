@@ -1,0 +1,380 @@
+
+
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body{
+	overflow-x: hidden;
+}
+
+header{
+	background: url(../images/banner1.jpg) center center no-repeat ;
+	background-size:100% 100%;
+	height:100vh;
+	position: relative;
+	
+	width:100%;
+
+}
+.box1{
+	position: absolute;
+	top: 3%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	width: 100%;
+	height: 50px;
+	text-align: right;
+	background-color: #f9235d;
+	color: white;
+	padding-top:5px;
+	
+
+
+}
+
+.col2{
+	margin-left: -100px;
+}
+
+.box3{
+	position: absolute;
+	top: 14%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	width: 100%;
+	height: 100px;
+	text-align: right;
+	padding-top: 5px;
+	background: rgba(255,255,255,.5);
+	
+
+
+}
+
+b{
+	color: black;
+	margin-left: 180px;
+
+}
+
+
+#Navbar1 ul li a{
+	color: black;
+
+}
+
+.navbar{
+margin-top: -20px;
+}
+
+
+.box4{
+	position: absolute;
+	top: 67%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	
+
+}
+
+.box4_row{
+	
+	width: 100%;
+	
+
+}
+
+
+.box4_h1{
+	font-size: 60px;
+	margin-left: 300px;
+	font-weight:900;
+	
+
+}
+
+.box4_h2{
+	font-size: 70px;
+	margin-left: 270px;
+	margin-top: -50px;
+	font-weight: 900;
+	color: #f9235d;
+
+}
+
+.box4_p1{
+	font-size: 12px;
+	margin-left: 240px;
+}
+
+.box4_btn1{
+	width: 150px;
+	height: 40px;
+	font-size: 15px;
+	background-color: #f9235d;
+color: white;
+margin-left: 350px;
+}
+
+.box4_img img{
+	width:550px;
+	height:480px;
+	margin-top: -86px;
+	margin-left:30px;
+}
+
+
+
+
+
+.section2{
+	background-color: white;
+	
+	
+
+}
+
+
+
+.text1{
+	position: absolute;
+	top:50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+
+}
+
+.text1_h1{
+	font-weight: 900;
+}
+
+.text1_h2{
+	margin-top: -40px;
+	color: #c11e58;
+	font-weight: 900;
+	font-size: 40px;
+}
+
+.text1_btn1{
+	background-color: #f9235d;
+	color: white;
+	width: 120px;
+	height: 50px;
+	font-weight: bold;
+
+}
+
+.text2{
+	position: absolute;
+	top:50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+
+}
+
+.text2_h1{
+	font-weight: 900;
+}
+
+.text2_h2{
+	margin-top: -40px;
+	color: #c11e58;
+	font-weight: 900;
+	font-size: 40px;
+}
+
+.text2_btn1{
+	background-color:#f9235d;
+	color: white;
+	width: 120px;
+	height: 50px;
+	font-weight: bold;
+
+}
+
+.fea_h4{
+	font-weight: 900;
+}
+
+.icon1{
+	border: 2px solid red;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+
+.icon2{
+	border: 2px solid red;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+
+.section3{
+	
+	background-color: lightgrey;
+	position:relative;
+	z-index: -1;
+}
+
+.sec3_h1{
+	padding-top: 50px;
+
+}
+
+.sec3_div1{
+	margin: auto;
+	background-color: white;
+
+}
+
+.sec3_h5{
+	font-weight: 900;
+	padding-left: 20px;
+}
+
+
+.sec3_h6{
+	color: grey;
+	padding-left: 20px;
+}
+
+.sec3_p1{
+	padding-left: 20px;
+}
+
+.sec3_btn{
+	width: 150px;
+	height: 40px;
+	background-color:#f9235d ;
+	color: white;
+	margin-left: 20px;
+}
+
+
+.heart{
+	margin-left: 90px;
+}
+
+.sec4_col2{
+	padding-top: 80px;
+}
+
+.sec4_h1{
+	font-size: 30px;
+	font-weight: 900;
+}
+
+
+
+.sec5_h1{
+	font-size:22px;
+	font-weight: 900;
+	padding-top: 60px;
+}
+
+.section6{
+	
+	padding-top: 50px;
+}
+
+
+
+
+
+
+.footer{
+	background-color:#f9235d;
+	color: white;
+	padding-top: 60px;
+
+
+}
+
+.foot_h5{
+	padding-top: 40px;
+}
+
+.foot1_h5{
+	padding-top: 60px;
+}
+
+
+.foot_row2 ul{
+	list-style-type: none;
+	margin-top: 50px;
+	padding-left: 300px;
+
+
+	
+}
+
+.foot_row2 ul li{
+	float: left;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+
+.foot_row2{
+	width: 80%;
+	
+	margin-left: 100px;
+
+}
+
+
+@media screen and (max-width:800px){
+
+	header{
+		height: 1100px;
+	}
+
+	.box4_h1{
+		margin-left: 60px;
+	}
+
+	.box4_h2{
+		margin-left: 60px;
+		font-size: 47px;
+	}
+
+	.box4_p1{
+		margin-left: 70px;
+	}
+
+	.box4_img img{
+		margin-top: 88px;
+		margin-left: -22px;
+		width: 419px;
+	}
+
+	.box4_btn1{
+		margin-left: 100px;
+	}
+/*.sec2_col{
+	margin-left: 200px;
+
+}
+.sec2_col2{
+	margin-top: 400px;
+	margin-left: -50px;
+
+}*/
+.sec2_row3{
+	padding-left: 80px;
+}
+
+.foot_row2 ul{
+	padding-left: 156px;
+}
+
+
+
+}
